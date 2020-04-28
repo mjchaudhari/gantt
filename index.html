@@ -1,0 +1,33 @@
+<html class="">
+    <head>
+        <base href="/" target="_blank">
+    </head>
+    <link href="/styles/bootstrap.min.slate.css" rel="stylesheet">
+    <link href="/styles/app.css" rel="stylesheet">
+
+    <body  class=" ">
+        <div id="app" class="">
+            <router-view></router-view>
+        </div>
+        <!-- vendor -->
+        <script src="./scripts/vue.js" type="module"></script>
+        <script src="./scripts/vue-router.min.js" type="module"></script>
+        <script src="./scripts/vuex.min.js"></script>
+        <script src="./scripts/lodash.js"></script>
+        <script src="./scripts/axios.min.js"></script>
+        <script src="./scripts/d3.v5.min.js"></script>
+
+        <!-- Mine -->
+        <!-- <script src="config.js" type="moule"></script> -->
+        <script src="./modules/data.service.js" type="module"></script>
+        <script src="./modules/route.resolver.js" type="module"></script>
+        <script src="./modules/index.vue.js" type="module"></script>
+        <script src="./modules/home/home.vue.js" type="module"></script>
+
+        <script src="./modules/project.store.js" type="module"></script>
+        <script src="./modules/home/projects.vue.js" type="module"></script>
+        <script src="./modules/project/project.vue.js" type="module"></script>
+        <script src="./modules/project/plan.vue.js" type="module"></script>
+        <script src="./modules/project/detail.vue.js" type="module"></script>
+    </body>
+</html>

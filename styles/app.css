@@ -1,0 +1,22 @@
+.fill{
+    height: 100%;
+    /* width: 99%; */
+    overflow: hidden;
+    text-align: center;
+}
+
+/* SVG start */
+.chart{
+    width:500;
+    height:500;
+    background-color: whitesmoke;
+}
+
+.text-on-bar{
+    color: blueviolet;
+    font-size: 1.4em;
+    text-anchor: start;
+}
+
+/* SVG end */
+
